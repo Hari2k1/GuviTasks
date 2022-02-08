@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1638991591017-4c6689266bec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  /* Center and scale the image nicely */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 100px;
+  padding: 45px;
+  background-color: #ffffff42;
+  border-radius: 20px;
+}
